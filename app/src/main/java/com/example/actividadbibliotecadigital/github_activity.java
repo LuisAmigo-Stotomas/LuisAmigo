@@ -22,7 +22,7 @@ public class github_activity extends AppCompatActivity {
 
         spinnerPaso = (Spinner) findViewById(R.id.idSelectorLibros);
 
-        String[] libros = {"Seleccione Libros", "Farenheith", "Revival", "El Alquimista", "El Poder", "El Resplandor"};
+        String[] libros = {"Seleccione Libros", "Farenheith", "Revival", "El Alquimista", "El Poder", "Despertar"};
 
         ArrayAdapter<String> adapt = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, libros);
 
