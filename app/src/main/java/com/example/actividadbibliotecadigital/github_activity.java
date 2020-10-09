@@ -64,7 +64,7 @@ public class github_activity extends AppCompatActivity {
             textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 88000 ");
         }
 
-        if (spinnerPaso.getSelectedItem().toString().equals("El Resplandor")) {
+        if (spinnerPaso.getSelectedItem().toString().equals("Despertar")) {
             textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 156000 ");
         }
     }
