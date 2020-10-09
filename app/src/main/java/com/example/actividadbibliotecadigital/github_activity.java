@@ -22,7 +22,7 @@ public class github_activity extends AppCompatActivity {
 
         spinnerPaso = (Spinner) findViewById(R.id.idSelectorLibros);
 
-        String[] libros = {"Seleccione Libros", "Farenheith", "Revival", "El Alquimista"};
+        String[] libros = {"Seleccione Libros", "Farenheith", "Revival", "El Alquimista", "El Poder", "El Resplandor"};
 
         ArrayAdapter<String> adapt = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, libros);
 
@@ -49,15 +49,23 @@ public class github_activity extends AppCompatActivity {
 
 
         if (spinnerPaso.getSelectedItem().toString().equals("Farenheith")) {
-            textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 5000 ");
+            textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 7000 ");
         }
 
         if (spinnerPaso.getSelectedItem().toString().equals("Revival")) {
-            textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 12000 ");
+            textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 22000 ");
         }
 
         if (spinnerPaso.getSelectedItem().toString().equals("El Alquimista")) {
             textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 45000 ");
+        }
+
+        if (spinnerPaso.getSelectedItem().toString().equals("El Poder")) {
+            textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 88000 ");
+        }
+
+        if (spinnerPaso.getSelectedItem().toString().equals("El Resplandor")) {
+            textViewPaso.setText("El valor de " + spinnerPaso.getSelectedItem().toString() + " es de : 156000 ");
         }
     }
 }
